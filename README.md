@@ -35,7 +35,6 @@
 
 ### /Final_Data
 - 최종적으로 모델링에 사용하는 코드입니다.
--
 - 4-fold validation으로 진행하기 때문에 **train set, validation set**이 각각 **4개**씩 있습니다. 그리고 **test set**은 잔여 경기에 대해 X로 줄 features로, **1개**입니다.
 - 승률, 타율, 방어율 각각 사용하는 features가 다릅니다.
 - 폴더는 **/PCT** (승률), **/AVG** (타율), **/ERA** (방어율)로 나뉘어 있습니다.
